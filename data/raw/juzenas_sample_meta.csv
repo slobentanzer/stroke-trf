@@ -1,0 +1,451 @@
+"","cells","file","batch"
+"1","CD14 cells","SRR5755815",3
+"2","CD15 cells","SRR5755816",3
+"3","CD19 cells","SRR5755817",3
+"4","CD4 cells","SRR5755813",1
+"5","CD56 cells","SRR5755818",3
+"6","CD8 cells","SRR5755814",3
+"7","CD14 cells","SRR5755821",3
+"8","CD15 cells","SRR5755822",3
+"9","CD19 cells","SRR5755823",3
+"10","CD235a cells","SRR5755825",3
+"11","CD4 cells","SRR5755819",3
+"12","CD56 cells","SRR5755824",3
+"13","CD8 cells","SRR5755820",3
+"14","CD14 cells","SRR5755828",3
+"15","CD15 cells","SRR5755829",3
+"16","CD19 cells","SRR5755830",3
+"17","CD235a cells","SRR5755832",3
+"18","CD4 cells","SRR5755826",3
+"19","CD56 cells","SRR5755831",3
+"20","CD8 cells","SRR5755827",3
+"21","CD14 cells","SRR5755835",3
+"22","CD15 cells","SRR5755836",3
+"23","CD19 cells","SRR5755837",1
+"24","CD235a cells","SRR5755839",3
+"25","CD4 cells","SRR5755833",1
+"26","CD56 cells","SRR5755838",3
+"27","CD8 cells","SRR5755834",3
+"28","CD14 cells","SRR5755842",3
+"29","CD15 cells","SRR5755843",3
+"30","CD19 cells","SRR5755844",3
+"31","CD235a cells","SRR5755846",3
+"32","CD4 cells","SRR5755840",3
+"33","CD56 cells","SRR5755845",3
+"34","CD8 cells","SRR5755841",3
+"35","CD14 cells","SRR5755849",3
+"36","CD15 cells","SRR5755850",3
+"37","CD19 cells","SRR5755851",3
+"38","CD235a cells","SRR5755853",3
+"39","CD4 cells","SRR5755847",3
+"40","CD56 cells","SRR5755852",3
+"41","CD8 cells","SRR5755848",3
+"42","CD14 cells","SRR5755856",1
+"43","CD15 cells","SRR5755857",3
+"44","CD19 cells","SRR5755858",1
+"45","CD235a cells","SRR5755860",3
+"46","CD4 cells","SRR5755854",3
+"47","CD56 cells","SRR5755859",3
+"48","CD8 cells","SRR5755855",3
+"49","CD14 cells","SRR5755863",3
+"50","CD15 cells","SRR5755864",3
+"51","CD19 cells","SRR5755865",3
+"52","CD235a cells","SRR5755867",3
+"53","CD4 cells","SRR5755861",3
+"54","CD56 cells","SRR5755866",3
+"55","CD8 cells","SRR5755862",3
+"56","CD14 cells","SRR5755870",3
+"57","CD15 cells","SRR5755871",3
+"58","CD19 cells","SRR5755872",3
+"59","CD235a cells","SRR5755874",3
+"60","CD4 cells","SRR5755868",3
+"61","CD56 cells","SRR5755873",3
+"62","CD8 cells","SRR5755869",3
+"63","CD14 cells","SRR5755877",3
+"64","CD15 cells","SRR5755878",3
+"65","CD19 cells","SRR5755879",3
+"66","CD235a cells","SRR5755881",3
+"67","CD4 cells","SRR5755875",3
+"68","CD56 cells","SRR5755880",3
+"69","CD8 cells","SRR5755876",3
+"70","CD14 cells","SRR5755884",3
+"71","CD15 cells","SRR5755885",3
+"72","CD19 cells","SRR5755886",3
+"73","CD235a cells","SRR5755888",3
+"74","CD4 cells","SRR5755882",3
+"75","CD56 cells","SRR5755887",3
+"76","CD8 cells","SRR5755883",3
+"77","CD14 cells","SRR5755891",2
+"78","CD15 cells","SRR5755892",2
+"79","CD19 cells","SRR5755893",2
+"80","CD235a cells","SRR5755895",2
+"81","CD4 cells","SRR5755889",3
+"82","CD56 cells","SRR5755894",2
+"83","CD8 cells","SRR5755890",2
+"84","CD14 cells","SRR5755898",1
+"85","CD15 cells","SRR5755899",2
+"86","CD19 cells","SRR5755900",2
+"87","CD235a cells","SRR5755902",2
+"88","CD4 cells","SRR5755896",2
+"89","CD56 cells","SRR5755901",2
+"90","CD8 cells","SRR5755897",2
+"91","CD14 cells","SRR5755905",2
+"92","CD15 cells","SRR5755906",2
+"93","CD19 cells","SRR5755907",2
+"94","CD235a cells","SRR5755909",2
+"95","CD4 cells","SRR5755903",2
+"96","CD56 cells","SRR5755908",2
+"97","CD8 cells","SRR5755904",2
+"98","CD14 cells","SRR5755912",2
+"99","CD15 cells","SRR5755913",2
+"100","CD19 cells","SRR5755914",2
+"101","CD235a cells","SRR5755916",2
+"102","CD4 cells","SRR5755910",2
+"103","CD56 cells","SRR5755915",2
+"104","CD8 cells","SRR5755911",2
+"105","CD14 cells","SRR5755919",2
+"106","CD15 cells","SRR5755920",2
+"107","CD19 cells","SRR5755921",2
+"108","CD235a cells","SRR5755923",2
+"109","CD4 cells","SRR5755917",1
+"110","CD56 cells","SRR5755922",2
+"111","CD8 cells","SRR5755918",2
+"112","CD14 cells","SRR5755926",2
+"113","CD15 cells","SRR5755927",2
+"114","CD19 cells","SRR5755928",2
+"115","CD235a cells","SRR5755930",2
+"116","CD4 cells","SRR5755924",2
+"117","CD56 cells","SRR5755929",2
+"118","CD8 cells","SRR5755925",2
+"119","CD14 cells","SRR5755933",2
+"120","CD15 cells","SRR5755934",2
+"121","CD19 cells","SRR5755935",2
+"122","CD235a cells","SRR5755937",2
+"123","CD4 cells","SRR5755931",2
+"124","CD56 cells","SRR5755936",2
+"125","CD8 cells","SRR5755932",2
+"126","CD14 cells","SRR5755940",1
+"127","CD15 cells","SRR5755941",2
+"128","CD19 cells","SRR5755942",2
+"129","CD235a cells","SRR5755944",2
+"130","CD4 cells","SRR5755938",2
+"131","CD56 cells","SRR5755943",2
+"132","CD8 cells","SRR5755939",2
+"133","CD14 cells","SRR5755947",2
+"134","CD15 cells","SRR5755948",2
+"135","CD19 cells","SRR5755949",2
+"136","CD235a cells","SRR5755951",2
+"137","CD4 cells","SRR5755945",2
+"138","CD56 cells","SRR5755950",2
+"139","CD8 cells","SRR5755946",2
+"140","CD14 cells","SRR5755954",1
+"141","CD15 cells","SRR5755955",2
+"142","CD19 cells","SRR5755956",2
+"143","CD235a cells","SRR5755958",2
+"144","CD4 cells","SRR5755952",1
+"145","CD56 cells","SRR5755957",2
+"146","CD8 cells","SRR5755953",2
+"147","CD14 cells","SRR5755961",2
+"148","CD15 cells","SRR5755962",2
+"149","CD19 cells","SRR5755963",2
+"150","CD235a cells","SRR5755965",2
+"151","CD4 cells","SRR5755959",1
+"152","CD56 cells","SRR5755964",2
+"153","CD8 cells","SRR5755960",2
+"154","CD14 cells","SRR5755968",2
+"155","CD15 cells","SRR5755969",2
+"156","CD19 cells","SRR5755970",2
+"157","CD235a cells","SRR5755972",2
+"158","CD4 cells","SRR5755966",2
+"159","CD56 cells","SRR5755971",2
+"160","CD8 cells","SRR5755967",2
+"161","CD14 cells","SRR5755975",2
+"162","CD15 cells","SRR5755976",2
+"163","CD19 cells","SRR5755977",2
+"164","CD235a cells","SRR5755979",2
+"165","CD4 cells","SRR5755973",1
+"166","CD56 cells","SRR5755978",2
+"167","CD8 cells","SRR5755974",2
+"168","CD14 cells","SRR5755982",2
+"169","CD15 cells","SRR5755983",2
+"170","CD19 cells","SRR5755984",2
+"171","CD235a cells","SRR5755986",2
+"172","CD4 cells","SRR5755980",2
+"173","CD56 cells","SRR5755985",2
+"174","CD8 cells","SRR5755981",2
+"175","CD14 cells","SRR5755989",1
+"176","CD15 cells","SRR5755990",2
+"177","CD19 cells","SRR5755991",2
+"178","CD235a cells","SRR5755993",2
+"179","CD4 cells","SRR5755987",2
+"180","CD56 cells","SRR5755992",2
+"181","CD8 cells","SRR5755988",2
+"182","CD14 cells","SRR5755996",2
+"183","CD15 cells","SRR5755997",2
+"184","CD19 cells","SRR5755998",2
+"185","CD235a cells","SRR5756000",2
+"186","CD4 cells","SRR5755994",1
+"187","CD56 cells","SRR5755999",2
+"188","CD8 cells","SRR5755995",2
+"189","CD14 cells","SRR5756003",2
+"190","CD15 cells","SRR5756004",2
+"191","CD19 cells","SRR5756005",2
+"192","CD235a cells","SRR5756007",2
+"193","CD4 cells","SRR5756001",2
+"194","CD56 cells","SRR5756006",2
+"195","CD8 cells","SRR5756002",2
+"196","CD14 cells","SRR5756009",2
+"197","CD15 cells","SRR5756010",2
+"198","CD19 cells","SRR5756011",2
+"199","CD235a cells","SRR5756013",2
+"200","CD56 cells","SRR5756012",2
+"201","CD8 cells","SRR5756008",2
+"202","CD14 cells","SRR5756016",2
+"203","CD15 cells","SRR5756017",2
+"204","CD19 cells","SRR5756018",2
+"205","CD235a cells","SRR5756020",2
+"206","CD4 cells","SRR5756014",2
+"207","CD56 cells","SRR5756019",2
+"208","CD8 cells","SRR5756015",2
+"209","CD14 cells","SRR5756023",2
+"210","CD15 cells","SRR5756024",2
+"211","CD19 cells","SRR5756025",2
+"212","CD4 cells","SRR5756021",2
+"213","CD56 cells","SRR5756026",2
+"214","CD8 cells","SRR5756022",2
+"215","CD14 cells","SRR5756029",2
+"216","CD15 cells","SRR5756030",2
+"217","CD19 cells","SRR5756031",2
+"218","CD4 cells","SRR5756027",2
+"219","CD56 cells","SRR5756032",2
+"220","CD8 cells","SRR5756028",2
+"221","CD14 cells","SRR5756035",2
+"222","CD15 cells","SRR5756036",2
+"223","CD19 cells","SRR5756037",2
+"224","CD235a cells","SRR5756039",2
+"225","CD4 cells","SRR5756033",1
+"226","CD56 cells","SRR5756038",2
+"227","CD8 cells","SRR5756034",2
+"228","CD14 cells","SRR5756042",4
+"229","CD15 cells","SRR5756043",4
+"230","CD19 cells","SRR5756044",4
+"231","CD235a cells","SRR5756046",4
+"232","CD4 cells","SRR5756040",2
+"233","CD56 cells","SRR5756045",2
+"234","CD8 cells","SRR5756041",2
+"235","CD14 cells","SRR5756049",4
+"236","CD15 cells","SRR5756050",4
+"237","CD19 cells","SRR5756051",4
+"238","CD235a cells","SRR5756053",4
+"239","CD4 cells","SRR5756047",1
+"240","CD56 cells","SRR5756052",4
+"241","CD8 cells","SRR5756048",4
+"242","CD14 cells","SRR5756056",4
+"243","CD15 cells","SRR5756057",4
+"244","CD19 cells","SRR5756058",4
+"245","CD235a cells","SRR5756060",4
+"246","CD4 cells","SRR5756054",1
+"247","CD56 cells","SRR5756059",4
+"248","CD8 cells","SRR5756055",4
+"249","CD14 cells","SRR5756063",4
+"250","CD15 cells","SRR5756064",4
+"251","CD19 cells","SRR5756065",4
+"252","CD235a cells","SRR5756067",4
+"253","CD4 cells","SRR5756061",1
+"254","CD56 cells","SRR5756066",4
+"255","CD8 cells","SRR5756062",4
+"256","CD14 cells","SRR5756070",1
+"257","CD15 cells","SRR5756071",4
+"258","CD19 cells","SRR5756072",4
+"259","CD235a cells","SRR5756074",4
+"260","CD4 cells","SRR5756068",4
+"261","CD56 cells","SRR5756073",4
+"262","CD8 cells","SRR5756069",4
+"263","CD14 cells","SRR5756077",1
+"264","CD15 cells","SRR5756078",4
+"265","CD19 cells","SRR5756079",4
+"266","CD235a cells","SRR5756081",4
+"267","CD4 cells","SRR5756075",1
+"268","CD56 cells","SRR5756080",4
+"269","CD8 cells","SRR5756076",4
+"270","CD14 cells","SRR5756084",1
+"271","CD15 cells","SRR5756085",4
+"272","CD19 cells","SRR5756086",4
+"273","CD235a cells","SRR5756088",4
+"274","CD4 cells","SRR5756082",4
+"275","CD56 cells","SRR5756087",4
+"276","CD8 cells","SRR5756083",4
+"277","CD14 cells","SRR5756091",4
+"278","CD15 cells","SRR5756092",4
+"279","CD19 cells","SRR5756093",4
+"280","CD235a cells","SRR5756095",4
+"281","CD4 cells","SRR5756089",1
+"282","CD56 cells","SRR5756094",4
+"283","CD8 cells","SRR5756090",4
+"284","CD14 cells","SRR5756098",4
+"285","CD15 cells","SRR5756099",4
+"286","CD19 cells","SRR5756100",4
+"287","CD235a cells","SRR5756102",4
+"288","CD4 cells","SRR5756096",4
+"289","CD56 cells","SRR5756101",4
+"290","CD8 cells","SRR5756097",4
+"291","CD14 cells","SRR5756105",4
+"292","CD15 cells","SRR5756106",4
+"293","CD19 cells","SRR5756107",4
+"294","CD235a cells","SRR5756109",4
+"295","CD4 cells","SRR5756103",1
+"296","CD56 cells","SRR5756108",4
+"297","CD8 cells","SRR5756104",4
+"298","whole blood","SRR5756110",5
+"299","whole blood","SRR5756111",5
+"300","whole blood","SRR5756112",5
+"301","whole blood","SRR5756113",5
+"302","whole blood","SRR5756114",5
+"303","whole blood","SRR5756115",5
+"304","whole blood","SRR5756116",5
+"305","whole blood","SRR5756117",5
+"306","whole blood","SRR5756118",5
+"307","whole blood","SRR5756119",5
+"308","whole blood","SRR5756120",5
+"309","whole blood","SRR5756121",5
+"310","whole blood","SRR5756122",5
+"311","whole blood","SRR5756123",5
+"312","whole blood","SRR5756124",5
+"313","whole blood","SRR5756125",5
+"314","whole blood","SRR5756126",5
+"315","whole blood","SRR5756127",5
+"316","whole blood","SRR5756128",5
+"317","whole blood","SRR5756129",5
+"318","whole blood","SRR5756130",5
+"319","whole blood","SRR5756131",5
+"320","whole blood","SRR5756132",5
+"321","whole blood","SRR5756133",5
+"322","whole blood","SRR5756134",5
+"323","whole blood","SRR5756135",5
+"324","whole blood","SRR5756136",5
+"325","whole blood","SRR5756137",5
+"326","whole blood","SRR5756138",5
+"327","whole blood","SRR5756139",5
+"328","whole blood","SRR5756140",5
+"329","whole blood","SRR5756141",5
+"330","whole blood","SRR5756142",5
+"331","whole blood","SRR5756143",5
+"332","whole blood","SRR5756144",5
+"333","whole blood","SRR5756145",5
+"334","whole blood","SRR5756146",5
+"335","whole blood","SRR5756147",5
+"336","whole blood","SRR5756148",5
+"337","whole blood","SRR5756149",5
+"338","whole blood","SRR5756150",5
+"339","whole blood","SRR5756151",5
+"340","whole blood","SRR5756152",5
+"341","whole blood","SRR5756153",5
+"342","whole blood","SRR5756154",5
+"343","whole blood","SRR5756155",5
+"344","whole blood","SRR5756156",5
+"345","whole blood","SRR5756157",5
+"346","whole blood","SRR5756158",5
+"347","whole blood","SRR5756159",5
+"348","whole blood","SRR5756160",5
+"349","whole blood","SRR5756161",5
+"350","whole blood","SRR5756162",5
+"351","whole blood","SRR5756163",5
+"352","whole blood","SRR5756164",5
+"353","whole blood","SRR5756165",5
+"354","whole blood","SRR5756166",5
+"355","whole blood","SRR5756167",5
+"356","whole blood","SRR5756168",5
+"357","whole blood","SRR5756169",5
+"358","whole blood","SRR5756170",5
+"359","whole blood","SRR5756171",5
+"360","whole blood","SRR5756172",5
+"361","whole blood","SRR5756173",5
+"362","whole blood","SRR5756174",5
+"363","whole blood","SRR5756175",5
+"364","whole blood","SRR5756176",5
+"365","whole blood","SRR5756177",5
+"366","whole blood","SRR5756178",5
+"367","whole blood","SRR5756179",5
+"368","whole blood","SRR5756180",5
+"369","whole blood","SRR5756181",5
+"370","whole blood","SRR5756182",5
+"371","whole blood","SRR5756183",5
+"372","whole blood","SRR5756184",5
+"373","whole blood","SRR5756185",5
+"374","whole blood","SRR5756186",5
+"375","exosomes","SRR5756187",5
+"376","serum","SRR5756188",5
+"377","exosomes","SRR5756189",5
+"378","serum","SRR5756190",5
+"379","exosomes","SRR5756191",5
+"380","serum","SRR5756192",5
+"381","exosomes","SRR5756193",5
+"382","serum","SRR5756194",5
+"383","exosomes","SRR5756195",5
+"384","serum","SRR5756196",5
+"385","exosomes","SRR5756197",5
+"386","serum","SRR5756198",5
+"387","exosomes","SRR5756199",5
+"388","serum","SRR5756200",5
+"389","exosomes","SRR5756201",5
+"390","serum","SRR5756202",5
+"391","exosomes","SRR5756203",5
+"392","serum","SRR5756204",5
+"393","exosomes","SRR5756205",5
+"394","serum","SRR5756206",5
+"395","exosomes","SRR5756207",5
+"396","serum","SRR5756208",5
+"397","exosomes","SRR5756209",5
+"398","serum","SRR5756210",5
+"399","exosomes","SRR5756211",5
+"400","serum","SRR5756212",5
+"401","exosomes","SRR5756213",5
+"402","serum","SRR5756214",5
+"403","exosomes","SRR5756215",5
+"404","serum","SRR5756216",5
+"405","exosomes","SRR5756217",5
+"406","serum","SRR5756218",5
+"407","exosomes","SRR5756219",5
+"408","serum","SRR5756220",5
+"409","exosomes","SRR5756221",5
+"410","serum","SRR5756222",5
+"411","exosomes","SRR5756223",5
+"412","serum","SRR5756224",5
+"413","exosomes","SRR5756225",5
+"414","serum","SRR5756226",5
+"415","exosomes","SRR5756227",5
+"416","serum","SRR5756228",5
+"417","exosomes","SRR5756229",5
+"418","serum","SRR5756230",5
+"419","exosomes","SRR5756231",5
+"420","serum","SRR5756232",5
+"421","exosomes","SRR5756233",5
+"422","serum","SRR5756234",5
+"423","exosomes","SRR5756235",5
+"424","serum","SRR5756236",5
+"425","exosomes","SRR5756237",5
+"426","serum","SRR5756238",5
+"427","exosomes","SRR5756239",5
+"428","serum","SRR5756240",5
+"429","exosomes","SRR5756241",5
+"430","serum","SRR5756242",5
+"431","exosomes","SRR5756243",5
+"432","serum","SRR5756244",5
+"433","exosomes","SRR5756245",5
+"434","serum","SRR5756246",5
+"435","exosomes","SRR5756247",5
+"436","serum","SRR5756248",5
+"437","exosomes","SRR5756249",5
+"438","serum","SRR5756250",5
+"439","exosomes","SRR5756251",5
+"440","serum","SRR5756252",5
+"441","exosomes","SRR5756253",5
+"442","serum","SRR5756254",5
+"443","exosomes","SRR5756255",5
+"444","exosomes","SRR5756256",5
+"445","exosomes","SRR5756257",5
+"446","exosomes","SRR5756258",5
+"447","serum","SRR5756259",5
+"448","serum","SRR5756260",5
+"449","serum","SRR5756261",5
+"450","serum","SRR5756262",5
