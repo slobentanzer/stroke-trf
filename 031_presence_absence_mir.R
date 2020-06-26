@@ -1,13 +1,13 @@
 setwd("~/GitHub/stroke-trf")
 rm(list = ls())
 
-library(pheatmap)
-library(fitdistrplus)
-library(DESeq2)
-library(ggplot2)
-library(Rtsne)
-library(RColorBrewer)
-library(ggrepel)
+pacman::p_load(pheatmap,
+               fitdistrplus,
+               DESeq2,
+               ggplot2,
+               Rtsne,
+               RColorBrewer,
+               ggrepel)
 
 options(stringsAsFactors = FALSE);
 

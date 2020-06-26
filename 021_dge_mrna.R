@@ -1,8 +1,7 @@
 setwd("~/GitHub/stroke-trf")
 rm(list = ls())
 
-library(DESeq2)
-library(apeglm)
+pacman::p_load(DESeq2, apeglm, topGO)
 
 options(stringsAsFactors = F)
 
@@ -108,7 +107,6 @@ abline(v=1.4, col="black", lty=4, lwd=2.0)
 abline(h=-log10(.05), col="black", lty=4, lwd=2.0)
 
 #GO ANALYSIS####
-library(topGO)
 geneID2GO <- readRDS(file = "data/geneID2GO_genes.rds")
 #>order by pval####
 stroke <- stroke[!is.na(stroke$padj),]

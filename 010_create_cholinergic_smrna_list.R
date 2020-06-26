@@ -1,6 +1,8 @@
 setwd("~/GitHub/stroke-trf")
 rm(list = ls())
 
+pacman::p_load(tidyverse)
+
 #CHOLINO-MIRS AND -TRFS####
 #load graph output
 cholinergic_trfs <- readRDS("data/cholinergic_trfs.rds")

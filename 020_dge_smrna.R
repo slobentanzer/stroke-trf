@@ -1,15 +1,18 @@
 setwd("~/GitHub/stroke-trf")
 rm(list = ls())
 
-library(DESeq2)
-library(apeglm)
-library(ggplot2)
-library(waffle)
-library(RColorBrewer)
-library(Biostrings)
-library(BiocParallel)
-library(Rtsne)
-library(pheatmap)
+pacman::p_load(
+  tidyverse,
+  DESeq2,
+  apeglm,
+  ggplot2,
+  waffle,
+  RColorBrewer,
+  Biostrings,
+  BiocParallel,
+  Rtsne,
+  pheatmap
+)
 
 get.count.change <- function(BM, LF) {
   return((BM * 2^LF) - BM)

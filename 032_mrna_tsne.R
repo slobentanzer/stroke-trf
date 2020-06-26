@@ -1,10 +1,10 @@
 setwd("~/GitHub/stroke-trf")
 rm(list = ls())
 
-library(Rtsne)
-library(reshape2)
-library(RColorBrewer)
-library(ggplot2)
+pacman::p_load(Rtsne,
+               reshape2,
+               RColorBrewer,
+               ggplot2)
 
 options(stringsAsFactors = F)
 
