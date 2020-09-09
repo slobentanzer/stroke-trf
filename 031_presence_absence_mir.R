@@ -101,6 +101,12 @@ head(pvals_df)
 pvals_df_bin <- data.frame(apply(pvals_df, 2, function(x) x>=.01)) #presence absence defined by ks test pvalue threshold
 head(pvals_df_bin)
 
+#>>intra vs. extracellular####
+sum(pvals_df_bin$whole.blood)
+sum(apply(pvals_df_bin[, c("exosomes", "serum")], 1, any))
+sum(apply(pvals_df_bin[, grep("cell", colnames(pvals_df_bin))], 1, any))
+sum(pvals_df_bin$CD14.cells)
+
 pvals_df_num <- data.frame(apply(pvals_df_bin, 2, as.numeric))
 rownames(pvals_df_num) <- rownames(pvals_df_bin)
 
