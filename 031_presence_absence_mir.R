@@ -102,11 +102,21 @@ pvals_df_bin <- data.frame(apply(pvals_df, 2, function(x) x>=.01)) #presence abs
 head(pvals_df_bin)
 
 #>>intra vs. extracellular####
-sum(pvals_df_bin$whole.blood)
 sum(apply(pvals_df_bin[, c("exosomes", "serum")], 1, any))
 sum(apply(pvals_df_bin[, grep("cell", colnames(pvals_df_bin))], 1, any))
 sum(pvals_df_bin$CD14.cells)
+sum(pvals_df_bin$whole.blood)
 
+#in DE
+deseq <- read.csv("out/DESeq2_smrna_stroke_vs_con.csv")
+pvals_df_bin_sig <- pvals_df_bin[rownames(pvals_df_bin) %in% deseq$name[deseq$padj < .05],]
+
+sum(apply(pvals_df_bin_sig[, c("exosomes", "serum")], 1, any))
+sum(apply(pvals_df_bin_sig[, grep("cell", colnames(pvals_df_bin))], 1, any))
+sum(pvals_df_bin_sig$CD14.cells)
+sum(pvals_df_bin_sig$whole.blood)
+
+#numeric
 pvals_df_num <- data.frame(apply(pvals_df_bin, 2, as.numeric))
 rownames(pvals_df_num) <- rownames(pvals_df_bin)
 

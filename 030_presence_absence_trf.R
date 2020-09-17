@@ -107,10 +107,19 @@ head(pvals_df_bin)
 nrow(pvals_df_bin)
 
 #>>intra vs. extracellular####
-sum(pvals_df_bin$whole.blood)
 sum(apply(pvals_df_bin[, c("exosomes", "serum")], 1, any))
 sum(apply(pvals_df_bin[, grep("cell", colnames(pvals_df_bin))], 1, any))
 sum(pvals_df_bin$CD14.cells)
+sum(pvals_df_bin$whole.blood)
+
+#in DE
+deseq <- read.csv("out/DESeq2_smrna_stroke_vs_con.csv")
+pvals_df_bin_sig <- pvals_df_bin[rownames(pvals_df_bin) %in% deseq$name[deseq$padj < .05],]
+
+sum(apply(pvals_df_bin_sig[, c("exosomes", "serum")], 1, any))
+sum(apply(pvals_df_bin_sig[, grep("cell", colnames(pvals_df_bin))], 1, any))
+sum(pvals_df_bin_sig$CD14.cells)
+sum(pvals_df_bin_sig$whole.blood)
 
 #>plot####
 dat <- plotCounts(dds, "tRF-18-HR0VX6D2", intgroup = "cells", returnData = T)
